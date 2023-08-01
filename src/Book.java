@@ -1,11 +1,27 @@
 public class Book {
-    String bookName;
-    int yearPublication;
+    private String tittle;
+    private Author author;
+    private int yearPublication;
 
-    public Book(String bookName, int yearPublication) {
-        this.bookName = bookName;
-        Author author = new Author("Лев", "Толстой");
+    public Book(String tittle, Author author, int yearPublication) {
+        this.tittle = tittle;
+        this.author = author;
+        this.yearPublication = yearPublication;
+    }
+
+    public String getTittle() {
+        return tittle;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public int getYearPublication() {
+        return yearPublication;
+    }
+
+    public void setYearPublication(int yearPublication) {
         this.yearPublication = yearPublication;
     }
 }
-
