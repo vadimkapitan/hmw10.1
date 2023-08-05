@@ -15,8 +15,8 @@ public class App {
 
 
         System.out.println(warAndPeace.equals(revizor));
-        System.out.println(gogol.getClass());
         System.out.println(revizor.getClass());
+        System.out.println(gogol.getClass());
     }
 
     public static void PrintBook(Book book) {
