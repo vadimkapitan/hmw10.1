@@ -12,6 +12,11 @@ public class App {
         warAndPeace.setYearPublication(1999);
 
         PrintBook(warAndPeace);
+
+
+        System.out.println(warAndPeace.equals(revizor));
+        System.out.println(gogol.getClass());
+        System.out.println(revizor.getClass());
     }
 
     public static void PrintBook(Book book) {
